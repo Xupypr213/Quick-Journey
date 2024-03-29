@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../images/first.svg);
+  font-family: "HelveticaNeue-CondensedBlack", sans-serif;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+body > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 41.25px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.second-screen {
+  display: none;
+}
+
+.text-content-1 {
+  margin-bottom: 200px;
+}
+
+.text-content-1:hover {
+  color: white;
+}
+
+.text-content-2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+  color: #44DBA5;
+}
+
+.car-img {
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  top: 350px;
+  left: 390px;
+  flex-direction: column;
+}
+
+.car-img > img {
+  width: 46vw;
+  height: 50vh;
+}
+
+.buttons-content {
+  position: absolute;
+  right: 65px;
+  bottom: 5px;
+  flex-direction: row;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-circles1, .button-circles2, .button-circles3 {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 100%;
+  margin: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 7px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.k{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-circles1:hover{
+  background-color: #CB5454;
+}
+
+.с{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-circles2:hover{
+  background-color: #4F66DC;
+}
+
+.з{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-circles3:hover{
+  background-color: #35B788;
+}
+
+.butt{
+  background-color: white;
+  border-radius: 26.25px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 7px;
+  width: 300px;
+  height: 99.11px;
+  position: absolute;
+  left: 70px;
+  top: 677px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.butt:hover {
+  background-color: #97CDCF
+}
+
+.third-screen {
+  display: none;
+  overflow: hidden;
+}
+
+
+
+.sol{
+  position: absolute;
+  height: 385px;
+  width: 385px;
+  background-color: #FFE382;
+  border-radius: 100%;
+  bottom: 550px;
+  right: 800px;
+}
+
+.sol:hover {
+  background-color: #FFC700;
+}
+
+.fourth-screen {
+  display: none;
+  overflow: hidden;
+}
+
+.sol-1{
+  position: absolute;
+  height: 385px;
+  width: 385px;
+  background-color: #FF9882;
+  border-radius: 100%;
+  bottom: 550px;
+  right: 100px;
+}
+
+.sol-1:hover {
+  background-color: #E47962;
+}
+
+.fifth-screen {
+  display: none;
+  overflow: hidden;
+}
+
+.sol-2{
+  position: absolute;
+  height: 385px;
+  width: 385px;
+  background-color: #FFE898;
+  border-radius: 100%;
+  bottom: 550px;
+  right: 100px;
+}
+
+.sol-2:hover {
+  background-color: #F9D34B;
+}
+
+.sixth-screen {
+  display: none;
+  overflow: hidden;
+}
+
+.button-content-2{
+  background-color: #CB5454;
+  border-radius: 26.25px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 7px;
+  width: 300px;
+  height: 99.11px;
+  position: absolute;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.butt-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
